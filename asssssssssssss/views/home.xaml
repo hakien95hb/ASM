@@ -1,0 +1,26 @@
+﻿<Page
+    x:Class="asssssssssssss.views.home"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:local="using:asssssssssssss.views"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    mc:Ignorable="d"
+    Background="{ThemeResource ApplicationPageBackgroundThemeBrush}">
+
+    <Pivot x:Name="rootPivot" Title="Category Title">
+        <Pivot.Background>
+            <ImageBrush ImageSource="https://media.idownloadblog.com/wp-content/uploads/2018/05/low-poly-texture-120-roundedhexagon-wwallpaper.png" Stretch="Fill" />
+        </Pivot.Background>
+        <PivotItem Header="Register" >
+            <Frame x:Name="regi"/>
+           
+        </PivotItem>
+        <PivotItem Header="Login">
+            <Frame x:Name="log"/>
+        </PivotItem>
+        <PivotItem Header="Section 3" HorizontalAlignment="Stretch" Height="905" Margin="12,0,12,-0.2" VerticalAlignment="Bottom">
+            <Frame x:Name="inf"/>
+        </PivotItem>
+    </Pivot>
+</Page>
